@@ -5,8 +5,49 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8263b0f5-4cdf-45fc-b16d-c5d290d80c13" name="Changes" comment="java learning record">
-      <changelist_data name="chenb" email="lcy0869@gmail.com" />
+      <change afterPath="$PROJECT_DIR$/algorithm/src/main/java/test/Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/thread/src/main/java/countDownLatch/TestCountDownLatch.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/thread/src/main/java/countDownLatch/WangZheLoad.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/thread/src/main/java/countDownLatch/cyclicbarrier/TestCyclicbarrier.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/thread/src/main/java/handWritingconnectionPool/improveConnectionPool/test01.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/thread/src/main/java/javaConcurrentUtil/Semaphore/TestSemaphore.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/thread/src/main/java/javaConcurrentUtil/aqs/TestNonReentrantLock.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/thread/src/main/java/javaConcurrentUtil/blockQueue/BlockQueue.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/thread/src/main/java/javaConcurrentUtil/blockQueue/arrayBlockingQueue/ArrayBlockingQueueDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/thread/src/main/java/javaConcurrentUtil/blockQueue/concurrentLinkedQueue/ConcurrentLinkedQueue.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/thread/src/main/java/javaConcurrentUtil/blockQueue/linkedBlockingQueue/LinkedBlockingQueueDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/thread/src/main/java/javaConcurrentUtil/blockQueue/priorityBlockingQueue/PriorityBlockingQueueDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/thread/src/main/java/javaConcurrentUtil/concurrentHashMap/TestConcurrentHashMap.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/thread/src/main/java/javaConcurrentUtil/copyOnWriteArrayList/copyOnWriteArrayList.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/thread/src/main/java/javaConcurrentUtil/copyOnWriteArrayList/copyOnWriteArrayList2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/thread/src/main/java/javaConcurrentUtil/reentrantreadwritelock/TestReentrantreadwritelock.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/thread/src/main/java/javaConcurrentUtil/stampedLock/TestStampedlock.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/thread/src/main/java/javaConcurrentUtil/threadpool/cachedThreadPool/CachedThreadPool.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/thread/src/main/java/javaConcurrentUtil/threadpool/cachedThreadPool/cachedThreadPoolInstance.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/thread/src/main/java/javaConcurrentUtil/threadpool/fixedThreadPool/FixedThreadPoolInstance.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/thread/src/main/java/javaConcurrentUtil/threadpool/fixedThreadPool/fixedThreadPool.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/thread/src/main/java/javaConcurrentUtil/threadpool/forkjoin/TestForkJoin1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/thread/src/main/java/javaConcurrentUtil/threadpool/forkjoin/TestForkJoin2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/thread/src/main/java/javaConcurrentUtil/threadpool/scheduledThreadPoolExecutor/ScheduleAtFixedRate.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/thread/src/main/java/javaConcurrentUtil/threadpool/scheduledThreadPoolExecutor/ScheduleTaskDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/thread/src/main/java/javaConcurrentUtil/threadpool/scheduledThreadPoolExecutor/ScheduledThreadPool.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/thread/src/main/java/javaConcurrentUtil/threadpool/scheduledThreadPoolExecutor/TestTimer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/thread/src/main/java/javaConcurrentUtil/threadpool/singleThreadPool/SingleThreadPoolInstance.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/thread/src/main/java/javaConcurrentUtil/threadpool/singleThreadPool/singleThreadExecutor.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/thread/src/main/java/javaConcurrentUtil/threadpool/threadpoolConstructor.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/thread/src/main/java/javaConcurrentUtil/threadpool/threadpoolShutdown/TestShutDown.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/thread/src/main/java/javaConcurrentUtil/threadpool/threadpoolState.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/thread/src/main/java/javaConcurrentUtil/threadpool/threadpoolSubmitTask/TestInvokeAll.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/thread/src/main/java/javaConcurrentUtil/threadpool/threadpoolSubmitTask/TestInvokeAny.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/thread/src/main/java/javaConcurrentUtil/threadpool/threadpoolSubmitTask/TestSubmit.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/thread/src/main/java/javaConcurrentUtil/threadpool/threadpoolSubmitTask/threadpoolSubmittask.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/thread/src/main/java/unsafe/GetUnsafe.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/thread/src/main/java/unsafe/Implement_atomicInteger.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/thread/src/main/java/unsafe/Implement_atomicIntegerFiledUpdater.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/thread/src/main/java/connectionPool/handWritingThreadPool/TestPool.java" beforeDir="false" afterPath="$PROJECT_DIR$/thread/src/main/java/handWritingThreadPool/TestPool.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/thread/src/main/java/connectionPool/test01.java" beforeDir="false" afterPath="$PROJECT_DIR$/thread/src/main/java/handWritingconnectionPool/test01.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/thread/src/main/java/javaConcurrentUtil/cas/atomiceIntegerFieldUpdater/AtomicIntegerFieldUpdaterTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/thread/src/main/java/javaConcurrentUtil/cas/atomicIntegerFieldUpdater/AtomicIntegerFieldUpdaterTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -16,6 +57,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="FxmlFile" />
         <option value="Class" />
       </list>
     </option>
@@ -50,33 +92,41 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "jdk.selected.JAVA_MODULE": "1.8",
-    "last_opened_file_path": "E:/Mycode/java/java_project",
-    "project.structure.last.edited": "Problems",
-    "project.structure.proportion": "0.15",
-    "project.structure.side.proportion": "0.2",
-    "settings.editor.selected.configurable": "vcs.Git"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;extract.method.default.visibility&quot;: &quot;private&quot;,
+    &quot;jdk.selected.JAVA_MODULE&quot;: &quot;1.8&quot;,
+    &quot;last_opened_file_path&quot;: &quot;E:/Mycode/java/java_practice/thread/src/main/java/handWritingconnectionPool/improveConnectionPool&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Problems&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;editing.templates&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\Mycode\java\java_practice\thread\src\main\java\handWritingconnectionPool\improveConnectionPool" />
+      <recent name="E:\Mycode\java\java_practice\thread\src\main\java\javaConcurrentUtil\stampedLock" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="F:\Mycode\java\java_practice\thread\src\main\resources" />
-      <recent name="F:\Mycode\java\java_practice\dataStructure\src\main\java" />
+      <recent name="E:\Mycode\java\java_practice\thread\src\main\java\javaConcurrentUtil\copyOnWriteArrayList" />
+      <recent name="E:\Mycode\java\java_practice\thread\src\main\java\javaConcurrentUtil\blockQueue\concurrentLinkedQueue" />
+      <recent name="E:\Mycode\java\java_practice\thread\src\main\java\javaConcurrentUtil\blockQueue" />
+      <recent name="E:\Mycode\java\java_practice\thread\src\main\java\javaConcurrentUtil\threadpool\threadpoolSubmitTask" />
+      <recent name="E:\Mycode\java\java_practice\thread\src\main\java\javaConcurrentUtil\threadpool\singleThreadPool" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.test">
-    <configuration name="AtomicIntegerArrayTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="cas.atomicIntegerArray.AtomicIntegerArrayTest" />
+  <component name="RunManager" selected="Application.PriorityBlockingQueueDemo">
+    <configuration name="ArrayBlockingQueueDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="javaConcurrentUtil.blockQueue.arrayBlockingQueue.ArrayBlockingQueueDemo" />
       <module name="thread" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="cas.atomicIntegerArray.*" />
+          <option name="PATTERN" value="javaConcurrentUtil.blockQueue.arrayBlockingQueue.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -84,12 +134,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="AtomicIntegerFieldUpdaterTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="cas.atomiceIntegerFieldUpdater.AtomicIntegerFieldUpdaterTest" />
+    <configuration name="LinkedBlockingQueueDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="javaConcurrentUtil.blockQueue.linkedBlockingQueue.LinkedBlockingQueueDemo" />
       <module name="thread" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="cas.atomiceIntegerFieldUpdater.*" />
+          <option name="PATTERN" value="javaConcurrentUtil.blockQueue.linkedBlockingQueue.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -97,12 +147,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="AtomicMarkableReferenceTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="cas.aba_problem.solve.AtomicMarkableReferenceTest" />
+    <configuration name="PriorityBlockingQueueDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="javaConcurrentUtil.blockQueue.priorityBlockingQueue.PriorityBlockingQueueDemo" />
       <module name="thread" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="cas.aba_problem.solve.*" />
+          <option name="PATTERN" value="javaConcurrentUtil.blockQueue.priorityBlockingQueue.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -110,12 +160,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="cas.aba_problem.solve.AtomicStampedReferenceTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="cas.aba_problem.solve.AtomicStampedReferenceTest" />
-      <module name="thread" />
+    <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="test.Test" />
+      <module name="algorithm" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="cas.aba_problem.solve.*" />
+          <option name="PATTERN" value="test.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -123,12 +173,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="cas.longadder.test" />
+    <configuration name="TestConcurrentHashMap" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="javaConcurrentUtil.concurrentHashMap.TestConcurrentHashMap" />
       <module name="thread" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="cas.longadder.*" />
+          <option name="PATTERN" value="javaConcurrentUtil.concurrentHashMap.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -138,11 +188,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.test" />
-        <item itemvalue="Application.AtomicIntegerFieldUpdaterTest" />
-        <item itemvalue="Application.AtomicIntegerArrayTest" />
-        <item itemvalue="Application.AtomicMarkableReferenceTest" />
-        <item itemvalue="Application.cas.aba_problem.solve.AtomicStampedReferenceTest" />
+        <item itemvalue="Application.PriorityBlockingQueueDemo" />
+        <item itemvalue="Application.LinkedBlockingQueueDemo" />
+        <item itemvalue="Application.ArrayBlockingQueueDemo" />
+        <item itemvalue="Application.TestConcurrentHashMap" />
+        <item itemvalue="Application.Test" />
       </list>
     </recent_temporary>
   </component>
@@ -157,7 +207,27 @@
       <workItem from="1653742579598" duration="10009000" />
       <workItem from="1653818492288" duration="2427000" />
       <workItem from="1653821135528" duration="8000" />
+      <workItem from="1653821220340" duration="16356000" />
+      <workItem from="1653895251307" duration="5006000" />
+      <workItem from="1654048766995" duration="111000" />
+      <workItem from="1654048897724" duration="1000" />
+      <workItem from="1654049517636" duration="28000" />
+      <workItem from="1654049617246" duration="9000" />
+      <workItem from="1654049688307" duration="8000" />
+      <workItem from="1654064551599" duration="13623000" />
+      <workItem from="1654132252187" duration="599000" />
+      <workItem from="1654150195724" duration="606000" />
+      <workItem from="1654222591303" duration="180000" />
+      <workItem from="1654247390630" duration="6635000" />
     </task>
+    <task id="LOCAL-00001" summary="java learning record">
+      <created>1653821280273</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1653821280273</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

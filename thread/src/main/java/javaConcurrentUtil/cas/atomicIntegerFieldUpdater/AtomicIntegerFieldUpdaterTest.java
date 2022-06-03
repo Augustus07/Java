@@ -1,4 +1,4 @@
-package javaConcurrentUtil.cas.atomiceIntegerFieldUpdater;
+package javaConcurrentUtil.cas.atomicIntegerFieldUpdater;
 
 import java.util.concurrent.atomic.AtomicReferenceFieldUpdater;
 
