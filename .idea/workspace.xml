@@ -5,7 +5,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8263b0f5-4cdf-45fc-b16d-c5d290d80c13" name="Changes" comment="java learning record">
-      <changelist_data name="chenb" email="lcy0869@gmail.com" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -16,6 +15,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="FxmlFile" />
         <option value="Class" />
       </list>
     </option>
@@ -50,33 +50,45 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "jdk.selected.JAVA_MODULE": "1.8",
-    "last_opened_file_path": "E:/Mycode/java/java_project",
-    "project.structure.last.edited": "Problems",
-    "project.structure.proportion": "0.15",
-    "project.structure.side.proportion": "0.2",
-    "settings.editor.selected.configurable": "vcs.Git"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;extract.method.default.visibility&quot;: &quot;private&quot;,
+    &quot;jdk.selected.JAVA_MODULE&quot;: &quot;1.8&quot;,
+    &quot;last_opened_file_path&quot;: &quot;E:/Mycode/java/java_practice/netty/src/main/java/cn/itcast/netty/c4/selector&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;editing.templates&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\Mycode\java\java_practice\netty\src\main\java\cn\itcast\netty\c4\selector" />
+      <recent name="E:\Mycode\java\java_practice\netty\src\main\java\cn\itcast\netty\c4\nioNonBlocking" />
+      <recent name="E:\Mycode\java\java_practice\netty\src\main\resources" />
+      <recent name="E:\Mycode\java\java_practice\thread\src\main\java\handWritingconnectionPool\improveConnectionPool" />
+      <recent name="E:\Mycode\java\java_practice\thread\src\main\java\javaConcurrentUtil\stampedLock" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="F:\Mycode\java\java_practice\thread\src\main\resources" />
-      <recent name="F:\Mycode\java\java_practice\dataStructure\src\main\java" />
+      <recent name="E:\Mycode\java\java_practice\netty\note" />
+      <recent name="E:\Mycode\java\java_practice\thread\src\main\java\javaConcurrentUtil\copyOnWriteArrayList" />
+      <recent name="E:\Mycode\java\java_practice\thread\src\main\java\javaConcurrentUtil\blockQueue\concurrentLinkedQueue" />
+      <recent name="E:\Mycode\java\java_practice\thread\src\main\java\javaConcurrentUtil\blockQueue" />
+      <recent name="E:\Mycode\java\java_practice\thread\src\main\java\javaConcurrentUtil\threadpool\threadpoolSubmitTask" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.test">
-    <configuration name="AtomicIntegerArrayTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="cas.atomicIntegerArray.AtomicIntegerArrayTest" />
-      <module name="thread" />
+  <component name="RunManager" selected="Application.TestSelectorRead">
+    <configuration name="TestSelectorRead" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="cn.itcast.netty.c4.selector.TestSelectorRead" />
+      <module name="netty" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="cas.atomicIntegerArray.*" />
+          <option name="PATTERN" value="cn.itcast.netty.c4.selector.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -84,12 +96,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="AtomicIntegerFieldUpdaterTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="cas.atomiceIntegerFieldUpdater.AtomicIntegerFieldUpdaterTest" />
-      <module name="thread" />
+    <configuration name="TestSelectorServerAccept" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="cn.itcast.netty.c4.selector.TestSelectorServerAccept" />
+      <module name="netty" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="cas.atomiceIntegerFieldUpdater.*" />
+          <option name="PATTERN" value="cn.itcast.netty.c4.selector.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -97,12 +109,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="AtomicMarkableReferenceTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="cas.aba_problem.solve.AtomicMarkableReferenceTest" />
-      <module name="thread" />
+    <configuration name="cn.itcast.netty.c4.nioNonBlocking.Client" type="Application" factoryName="Application" singleton="false" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="cn.itcast.netty.c4.nioNonBlocking.Client" />
+      <module name="netty" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="cas.aba_problem.solve.*" />
+          <option name="PATTERN" value="cn.itcast.netty.c4.nioNonBlocking.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -110,12 +122,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="cas.aba_problem.solve.AtomicStampedReferenceTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="cas.aba_problem.solve.AtomicStampedReferenceTest" />
-      <module name="thread" />
+    <configuration name="cn.itcast.netty.c4.selector.Client" type="Application" factoryName="Application" singleton="false" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="cn.itcast.netty.c4.selector.Client" />
+      <module name="netty" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="cas.aba_problem.solve.*" />
+          <option name="PATTERN" value="cn.itcast.netty.c4.selector.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -123,12 +135,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="cas.longadder.test" />
-      <module name="thread" />
+    <configuration name="cn.itcast.netty.c4.selector.TestSelectorCancel" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="cn.itcast.netty.c4.selector.TestSelectorCancel" />
+      <module name="netty" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="cas.longadder.*" />
+          <option name="PATTERN" value="cn.itcast.netty.c4.selector.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -136,13 +148,20 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <list>
+      <item itemvalue="Application.TestSelectorRead" />
+      <item itemvalue="Application.TestSelectorServerAccept" />
+      <item itemvalue="Application.cn.itcast.netty.c4.selector.TestSelectorCancel" />
+      <item itemvalue="Application.cn.itcast.netty.c4.selector.Client" />
+      <item itemvalue="Application.cn.itcast.netty.c4.nioNonBlocking.Client" />
+    </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.test" />
-        <item itemvalue="Application.AtomicIntegerFieldUpdaterTest" />
-        <item itemvalue="Application.AtomicIntegerArrayTest" />
-        <item itemvalue="Application.AtomicMarkableReferenceTest" />
-        <item itemvalue="Application.cas.aba_problem.solve.AtomicStampedReferenceTest" />
+        <item itemvalue="Application.cn.itcast.netty.c4.selector.Client" />
+        <item itemvalue="Application.TestSelectorRead" />
+        <item itemvalue="Application.cn.itcast.netty.c4.selector.TestSelectorCancel" />
+        <item itemvalue="Application.TestSelectorServerAccept" />
+        <item itemvalue="Application.cn.itcast.netty.c4.nioNonBlocking.Client" />
       </list>
     </recent_temporary>
   </component>
@@ -157,7 +176,69 @@
       <workItem from="1653742579598" duration="10009000" />
       <workItem from="1653818492288" duration="2427000" />
       <workItem from="1653821135528" duration="8000" />
+      <workItem from="1653821220340" duration="16356000" />
+      <workItem from="1653895251307" duration="5006000" />
+      <workItem from="1654048766995" duration="111000" />
+      <workItem from="1654048897724" duration="1000" />
+      <workItem from="1654049517636" duration="28000" />
+      <workItem from="1654049617246" duration="9000" />
+      <workItem from="1654049688307" duration="8000" />
+      <workItem from="1654064551599" duration="13623000" />
+      <workItem from="1654132252187" duration="599000" />
+      <workItem from="1654150195724" duration="606000" />
+      <workItem from="1654222591303" duration="180000" />
+      <workItem from="1654247390630" duration="8389000" />
+      <workItem from="1654315358176" duration="70000" />
+      <workItem from="1654331428123" duration="5323000" />
+      <workItem from="1654345026870" duration="9456000" />
+      <workItem from="1654401583277" duration="30000" />
+      <workItem from="1654416606378" duration="11134000" />
+      <workItem from="1654441894851" duration="1403000" />
+      <workItem from="1654479832238" duration="738000" />
     </task>
+    <task id="LOCAL-00001" summary="java learning record">
+      <created>1653821280273</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1653821280273</updated>
+    </task>
+    <task id="LOCAL-00002" summary="java learning record">
+      <created>1654265481873</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1654265481873</updated>
+    </task>
+    <task id="LOCAL-00003" summary="java learning record">
+      <created>1654442215707</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1654442215707</updated>
+    </task>
+    <task id="LOCAL-00004" summary="java learning record">
+      <created>1654442580902</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1654442580902</updated>
+    </task>
+    <task id="LOCAL-00005" summary="java learning record">
+      <created>1654442586060</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1654442586060</updated>
+    </task>
+    <task id="LOCAL-00006" summary="java learning record">
+      <created>1654479879386</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1654479879386</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -177,6 +258,37 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="java learning record" />
     <option name="LAST_COMMIT_MESSAGE" value="java learning record" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/algorithm/src/main/java/test/Test.java</url>
+          <line>19</line>
+          <option name="timeStamp" value="6" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/netty/src/main/java/cn/itcast/netty/c4/nioBlocking/Client.java</url>
+          <line>22</line>
+          <option name="timeStamp" value="8" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/netty/src/main/java/cn/itcast/netty/c4/nioNonBlocking/Client.java</url>
+          <line>21</line>
+          <option name="timeStamp" value="9" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/netty/src/main/java/cn/itcast/netty/c4/selector/Client.java</url>
+          <line>21</line>
+          <option name="timeStamp" value="10" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+    <watches-manager>
+      <configuration name="Application">
+        <watch expression="sc" />
+      </configuration>
+    </watches-manager>
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
