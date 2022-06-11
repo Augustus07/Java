@@ -5,7 +5,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8263b0f5-4cdf-45fc-b16d-c5d290d80c13" name="Changes" comment="java learning record">
+      <change afterPath="$PROJECT_DIR$/netty/src/main/java/cn/itcast/netty/c4/selector/e_TestClientMessageOutOfIndex/Server.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/netty/src/main/java/cn/itcast/netty/c4/selector/e_TestClientMessageOutOfIndex/messageOutOfByteBufferIndex.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/netty/src/main/java/cn/itcast/netty/c4/selector/f_TestSelectorWrite/Client.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/netty/src/main/java/cn/itcast/netty/c4/selector/f_TestSelectorWrite/Server.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/netty/src/main/java/cn/itcast/netty/c4/selector/g_TestSelectorWriteImprove/Client.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/netty/src/main/java/cn/itcast/netty/c4/selector/g_TestSelectorWriteImprove/Server.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/algorithm/src/main/java/test/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/algorithm/src/main/java/test/Test.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/netty/src/main/java/cn/itcast/netty/c1/bytebuffer/TestByteStickPacks.java" beforeDir="false" afterPath="$PROJECT_DIR$/netty/src/main/java/cn/itcast/netty/c1/bytebuffer/TestByteStickPacks.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/netty/src/main/java/cn/itcast/netty/c4/selector/Client.java" beforeDir="false" afterPath="$PROJECT_DIR$/netty/src/main/java/cn/itcast/netty/c4/selector/e_TestClientMessageOutOfIndex/Client.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -29,6 +38,7 @@
       </list>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RESET_MODE" value="SOFT" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -50,45 +60,52 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;extract.method.default.visibility&quot;: &quot;private&quot;,
-    &quot;jdk.selected.JAVA_MODULE&quot;: &quot;1.8&quot;,
-    &quot;last_opened_file_path&quot;: &quot;E:/Mycode/java/java_practice/netty/src/main/java/cn/itcast/netty/c4/selector&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;editing.templates&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "extract.method.default.visibility": "private",
+    "jdk.selected.JAVA_MODULE": "9",
+    "last_opened_file_path": "E:/Mycode/java/java_practice/netty/src/main/java/cn/itcast/netty/c4/selector/g_TestSelectorWriteImprove",
+    "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "File.Encoding"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\Mycode\java\java_practice\netty\src\main\java\cn\itcast\netty\c4\selector\g_TestSelectorWriteImprove" />
       <recent name="E:\Mycode\java\java_practice\netty\src\main\java\cn\itcast\netty\c4\selector" />
       <recent name="E:\Mycode\java\java_practice\netty\src\main\java\cn\itcast\netty\c4\nioNonBlocking" />
       <recent name="E:\Mycode\java\java_practice\netty\src\main\resources" />
       <recent name="E:\Mycode\java\java_practice\thread\src\main\java\handWritingconnectionPool\improveConnectionPool" />
-      <recent name="E:\Mycode\java\java_practice\thread\src\main\java\javaConcurrentUtil\stampedLock" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\Mycode\java\java_practice\netty\src\main\java\cn\itcast\netty\c4\selector\e_TestClientMessageOutOfIndex" />
       <recent name="E:\Mycode\java\java_practice\netty\note" />
       <recent name="E:\Mycode\java\java_practice\thread\src\main\java\javaConcurrentUtil\copyOnWriteArrayList" />
       <recent name="E:\Mycode\java\java_practice\thread\src\main\java\javaConcurrentUtil\blockQueue\concurrentLinkedQueue" />
       <recent name="E:\Mycode\java\java_practice\thread\src\main\java\javaConcurrentUtil\blockQueue" />
-      <recent name="E:\Mycode\java\java_practice\thread\src\main\java\javaConcurrentUtil\threadpool\threadpoolSubmitTask" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="cn.itcast.netty.c4.selector.f_TestSelectorWrite" />
+      <recent name="cn.itcast.netty.c4.selector.e_TestClientMessageOutOfIndex" />
+      <recent name="cn.itcast.netty.c4.selector.TestSelectorClientClose" />
+      <recent name="cn.itcast.netty.c4.selector.TestSelectorCancel" />
+      <recent name="cn.itcast.netty.c4.selector.TestSelectorRead" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.TestSelectorRead">
-    <configuration name="TestSelectorRead" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="cn.itcast.netty.c4.selector.TestSelectorRead" />
+  <component name="RunManager" selected="Application.cn.itcast.netty.c4.selector.g_TestSelectorWriteImprove.Client">
+    <configuration name="Client" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="cn.itcast.netty.c4.selector.e_TestClientMessageOutOfIndex.Client" />
       <module name="netty" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="cn.itcast.netty.c4.selector.*" />
+          <option name="PATTERN" value="cn.itcast.netty.c4.selector.e_TestClientMessageOutOfIndex.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -96,12 +113,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestSelectorServerAccept" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="cn.itcast.netty.c4.selector.TestSelectorServerAccept" />
+    <configuration name="cn.itcast.netty.c4.selector.f_TestSelectorWrite.Client" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="cn.itcast.netty.c4.selector.f_TestSelectorWrite.Client" />
       <module name="netty" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="cn.itcast.netty.c4.selector.*" />
+          <option name="PATTERN" value="cn.itcast.netty.c4.selector.f_TestSelectorWrite.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -109,12 +126,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="cn.itcast.netty.c4.nioNonBlocking.Client" type="Application" factoryName="Application" singleton="false" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="cn.itcast.netty.c4.nioNonBlocking.Client" />
+    <configuration name="cn.itcast.netty.c4.selector.f_TestSelectorWrite.Server" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="cn.itcast.netty.c4.selector.f_TestSelectorWrite.Server" />
       <module name="netty" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="cn.itcast.netty.c4.nioNonBlocking.*" />
+          <option name="PATTERN" value="cn.itcast.netty.c4.selector.f_TestSelectorWrite.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -122,12 +139,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="cn.itcast.netty.c4.selector.Client" type="Application" factoryName="Application" singleton="false" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="cn.itcast.netty.c4.selector.Client" />
+    <configuration name="cn.itcast.netty.c4.selector.g_TestSelectorWriteImprove.Client" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="cn.itcast.netty.c4.selector.g_TestSelectorWriteImprove.Client" />
       <module name="netty" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="cn.itcast.netty.c4.selector.*" />
+          <option name="PATTERN" value="cn.itcast.netty.c4.selector.g_TestSelectorWriteImprove.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -135,12 +152,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="cn.itcast.netty.c4.selector.TestSelectorCancel" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="cn.itcast.netty.c4.selector.TestSelectorCancel" />
+    <configuration name="cn.itcast.netty.c4.selector.g_TestSelectorWriteImprove.Server" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="cn.itcast.netty.c4.selector.g_TestSelectorWriteImprove.Server" />
       <module name="netty" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="cn.itcast.netty.c4.selector.*" />
+          <option name="PATTERN" value="cn.itcast.netty.c4.selector.g_TestSelectorWriteImprove.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -149,19 +166,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.TestSelectorRead" />
-      <item itemvalue="Application.TestSelectorServerAccept" />
-      <item itemvalue="Application.cn.itcast.netty.c4.selector.TestSelectorCancel" />
-      <item itemvalue="Application.cn.itcast.netty.c4.selector.Client" />
-      <item itemvalue="Application.cn.itcast.netty.c4.nioNonBlocking.Client" />
+      <item itemvalue="Application.Client" />
+      <item itemvalue="Application.cn.itcast.netty.c4.selector.f_TestSelectorWrite.Client" />
+      <item itemvalue="Application.cn.itcast.netty.c4.selector.f_TestSelectorWrite.Server" />
+      <item itemvalue="Application.cn.itcast.netty.c4.selector.g_TestSelectorWriteImprove.Client" />
+      <item itemvalue="Application.cn.itcast.netty.c4.selector.g_TestSelectorWriteImprove.Server" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.cn.itcast.netty.c4.selector.Client" />
-        <item itemvalue="Application.TestSelectorRead" />
-        <item itemvalue="Application.cn.itcast.netty.c4.selector.TestSelectorCancel" />
-        <item itemvalue="Application.TestSelectorServerAccept" />
-        <item itemvalue="Application.cn.itcast.netty.c4.nioNonBlocking.Client" />
+        <item itemvalue="Application.cn.itcast.netty.c4.selector.g_TestSelectorWriteImprove.Client" />
+        <item itemvalue="Application.cn.itcast.netty.c4.selector.g_TestSelectorWriteImprove.Server" />
+        <item itemvalue="Application.cn.itcast.netty.c4.selector.f_TestSelectorWrite.Client" />
+        <item itemvalue="Application.cn.itcast.netty.c4.selector.f_TestSelectorWrite.Server" />
+        <item itemvalue="Application.Client" />
       </list>
     </recent_temporary>
   </component>
@@ -194,7 +211,22 @@
       <workItem from="1654401583277" duration="30000" />
       <workItem from="1654416606378" duration="11134000" />
       <workItem from="1654441894851" duration="1403000" />
-      <workItem from="1654479832238" duration="738000" />
+      <workItem from="1654479832238" duration="1217000" />
+      <workItem from="1654502646040" duration="3832000" />
+      <workItem from="1654522924272" duration="1520000" />
+      <workItem from="1654524637137" duration="297000" />
+      <workItem from="1654525075823" duration="1661000" />
+      <workItem from="1654566667613" duration="12000" />
+      <workItem from="1654566819694" duration="2000" />
+      <workItem from="1654567541695" duration="1000" />
+      <workItem from="1654582433870" duration="4420000" />
+      <workItem from="1654606989941" duration="1198000" />
+      <workItem from="1654687902402" duration="705000" />
+      <workItem from="1654743924444" duration="142000" />
+      <workItem from="1654773969348" duration="163000" />
+      <workItem from="1654919963026" duration="101000" />
+      <workItem from="1655043050199" duration="594000" />
+      <workItem from="1655274287104" duration="15499000" />
     </task>
     <task id="LOCAL-00001" summary="java learning record">
       <created>1653821280273</created>
@@ -238,7 +270,21 @@
       <option name="project" value="LOCAL" />
       <updated>1654479879386</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="java learning record">
+      <created>1654480760825</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1654480760825</updated>
+    </task>
+    <task id="LOCAL-00008" summary="java learning record">
+      <created>1654920043263</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1654920043263</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -263,11 +309,6 @@
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/algorithm/src/main/java/test/Test.java</url>
-          <line>19</line>
-          <option name="timeStamp" value="6" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/netty/src/main/java/cn/itcast/netty/c4/nioBlocking/Client.java</url>
           <line>22</line>
           <option name="timeStamp" value="8" />
@@ -278,9 +319,9 @@
           <option name="timeStamp" value="9" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/netty/src/main/java/cn/itcast/netty/c4/selector/Client.java</url>
+          <url>file://$PROJECT_DIR$/netty/src/main/java/cn/itcast/netty/c4/selector/d_TestSelectorClientClose/Client.java</url>
           <line>21</line>
-          <option name="timeStamp" value="10" />
+          <option name="timeStamp" value="13" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

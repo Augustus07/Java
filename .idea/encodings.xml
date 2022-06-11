@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
-  <component name="Encoding">
+  <component name="Encoding" defaultCharsetForPropertiesFiles="UTF-8">
     <file url="file://$PROJECT_DIR$/algorithm/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/algorithm/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/dataStructure/src/main/java" charset="UTF-8" />
@@ -9,6 +9,8 @@
     <file url="file://$PROJECT_DIR$/design_patterns/src/main/java/com/atguigu/adapter/classadapter/Client.java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/design_patterns/src/main/java/com/atguigu/bridge/Client.java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/design_patterns/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/jdk9/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/jdk9/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/jvm/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/jvm/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/language/src/main/java" charset="UTF-8" />
@@ -19,5 +21,6 @@
     <file url="file://$PROJECT_DIR$/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/thread/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/thread/src/main/resources" charset="UTF-8" />
+    <file url="PROJECT" charset="UTF-8" />
   </component>
 </project>

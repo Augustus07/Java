@@ -10,7 +10,7 @@ import static cn.itcast.netty.c1.bytebuffer.ByteBufferUtil.debugAll;
  * @Author: chenb
  * @Email: lcy0869@gmail.com
  * @CreateTime: 2022-06-04  21:23
- * @Description:
+ * @Description: 粘包，半包解决
  * @Version: 1.0
  */
 public class TestByteStickPacks {

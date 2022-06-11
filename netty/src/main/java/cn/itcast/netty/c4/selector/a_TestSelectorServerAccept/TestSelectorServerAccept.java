@@ -1,31 +1,36 @@
-package cn.itcast.netty.c4.selector;
+package cn.itcast.netty.c4.selector.a_TestSelectorServerAccept;
 
 import lombok.extern.slf4j.Slf4j;
 
 import java.io.IOException;
 import java.net.InetSocketAddress;
-import java.nio.ByteBuffer;
 import java.nio.channels.SelectionKey;
 import java.nio.channels.Selector;
 import java.nio.channels.ServerSocketChannel;
 import java.nio.channels.SocketChannel;
 import java.util.Iterator;
 
-import static cn.itcast.netty.c1.bytebuffer.ByteBufferUtil.debugAll;
-
 /**
  * @BelongsProject: java_practice
- * @BelongsPackage: cn.itcast.netty.c4.selector
+ * @BelongsPackage: cn.itcast.netty.c4
  * @Author: chenb
  * @Email: lcy0869@gmail.com
- * @CreateTime: 2022-06-05  22:50
+ * @CreateTime: 2022-06-05  20:30
  * @Description:
+ * 当使用阻塞模式的时候，必须要创建一个线程用于不断接收客户端的连接，每当接受一个客户端的连接时，就要开一个新线程去处理和这个 socket 相关的数据传输任务
+ * 当使用非阻塞模式的时候，很大几率会占满一个核心的 cpu
+ * 当使用 selector 配合 非阻塞模式 时，将 各种channel 注册到 selector 中，并且 一个channel 对应 一个 selelectionKey　
+ * selector 在单线程里不断监听 注册在其上的 channel，
+ * 没有事件发生 或者 有事件发生并且处理掉该事件，就阻塞在 select() 方法； 有事件发生 或者 有事件发生但是上一轮没有处理， 就不会阻塞在 select() 方法
+ * 当某些 channel 发生这个 channel 感兴趣的事件时，停止阻塞并将 发生事件的 key 加入到 selectedKey 这个 set 中 （注意 当有事件发生，selector 只负责将 key 加入 selectedKey 中，不负责删除，所以后面使用 iterator遍历 selectedKey，获得就删除）
+ * 然后通过 selectedKeys 方法获取发生 事件的 channels 所对应的 selectionKey set
+ * 再遍历 selectionKey 中的每一个 selectionKey，通过 selectionKey 获取 channel，然后再获取数据
  * @Version: 1.0
  */
 @Slf4j
-public class TestSelectorRead {
+public class TestSelectorServerAccept {
     public static void main(String[] args) throws IOException {
-        //        1. 创建 selector， 管理多个 channel
+//        1. 创建 selector， 管理多个 channel
         Selector selector = Selector.open();
         ServerSocketChannel ssc = ServerSocketChannel.open();
         ssc.configureBlocking(false);
@@ -38,12 +43,12 @@ public class TestSelectorRead {
         SelectionKey sscKey = ssc.register(selector, 0, null);
 //        设置这个 selectionKey 感兴趣的事件
         /*
-         * 事件类型有：
-         * accpt - 服务器端，有 client 连接 serversocketChannel 时
-         * connect - 客户端， 与 server 连接上时触发
-         * read - 可读事件
-         * write - 可写事件
-         * */
+        * 事件类型有：
+        * accpt - 服务器端，有 client 连接 serversocketChannel 时
+        * connect - 客户端， 与 server 连接上时触发
+        * read - 可读事件
+        * write - 可写事件
+        * */
         sscKey.interestOps(SelectionKey.OP_ACCEPT);
         log.debug("register key: {}", sscKey);
         ssc.bind(new InetSocketAddress(8080));
@@ -55,33 +60,13 @@ public class TestSelectorRead {
             Iterator<SelectionKey> iter = selector.selectedKeys().iterator();
             while (iter.hasNext()) {
                 SelectionKey key = iter.next();
-                /*
-                * !!! 注意这里一定要加 remove()
-                * 理由，注册进 selector 的 set 和 当有事件发生时返回的 selectedKey 的 set 是两个 set
-                * 当有事件发生时， selector 只负责将 发生了事件的 key 加入到 selectedKey 这个 set 中，而不负责删除，
-                * 因此，当我们获取该事件的 key 后就应该 将这个 key 从 selectedKey 中删除
-                * */
-                iter.remove();
                 log.debug("key: {}", key);
-//                5. 区分事件类型
-                if (key.isAcceptable()) {
-                    ServerSocketChannel channel = (ServerSocketChannel) key.channel();
-                    SocketChannel sc = channel.accept();
-                    sc.configureBlocking(false);
-                    SelectionKey scKey = sc.register(selector, 0, null);
-                    scKey.interestOps(SelectionKey.OP_READ);
-                    log.debug("{}", sc);
-                    log.debug("scKey{}", scKey);
-                } else if (key.isReadable()) {
-                    SocketChannel channel = (SocketChannel) key.channel();
-                    ByteBuffer buffer = ByteBuffer.allocate(16);
-                    channel.read(buffer);
-                    buffer.flip();
-                    debugAll(buffer);
-                }
+                ServerSocketChannel channel = (ServerSocketChannel) key.channel();
+                SocketChannel sc = channel.accept();
+                log.debug("{}", sc);
             }
         }
 
-    }
+   }
 
 }

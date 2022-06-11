@@ -1,4 +1,4 @@
-package cn.itcast.netty.c4.selector;
+package cn.itcast.netty.c4.selector.b_TestSelectorCancel;
 
 import java.io.IOException;
 import java.net.InetSocketAddress;
