@@ -1,4 +1,4 @@
-package cn.itcast.netty.c4.selector;
+package cn.itcast.netty.c4.selector.b_TestSelectorCancel;
 
 import lombok.extern.slf4j.Slf4j;
 
@@ -7,7 +7,6 @@ import java.net.InetSocketAddress;
 import java.nio.channels.SelectionKey;
 import java.nio.channels.Selector;
 import java.nio.channels.ServerSocketChannel;
-import java.nio.channels.SocketChannel;
 import java.util.Iterator;
 
 /**

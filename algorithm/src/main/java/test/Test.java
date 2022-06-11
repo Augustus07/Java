@@ -13,44 +13,28 @@ import java.util.*;
  * @Version: 1.0
  */
 public class Test {
-    public static List<List<Integer>> fourSum(int[] nums, int target) {
-        int a = 0, b = 0;
-        List<List<Integer>> res = new ArrayList<>();
-        Arrays.sort(nums);
-        for (int i = 0; i < nums.length - 3; i++) {
-            a = nums[i];
-            if (i > 0 && nums[i] == nums[i-1]) {
-                continue;
-            }
-            for (int j = i + 1; j < nums.length - 2; j++) {
-                b = nums[j];
-                int left = j + 1, right = nums.length - 1;
-                while (left < right) {
-                    int sum = a + b + nums[left] + nums[right];
-                    if (sum < target) {
-                        left++;
-                    } else if (sum > target) {
-                        right--;
-                    } else {
-                        res.add(Arrays.asList(a, b, nums[left], nums[right]));
-                        while (left < right && nums[left] == nums[left + 1]) {
-                            left++;
-                        }
-                        while (left < right && nums[right] == nums[right - 1]) {
-                            right--;
-                        }
-                        left++;
-                        right--;
-                    }
-                }
-            }
-        }
-        return res;
 
+    private static void getNext(int[] next, String s) {
+        int j = 0;
+        next[0] = 0;
+        for (int i = 1; i < s.length(); i++) {
+            while (j > 0 && s.charAt(j) != s.charAt(i)) {
+                j = next[j - 1];
+            }
+            if (s.charAt(j) == s.charAt(i)) {
+                j++;
+            }
+            next[i] = j;
+        }
     }
 
+
+
     public static void main(String[] args) {
-        int[] data = {2,2,2,2,2};
-        fourSum(data, 8);
+        String s = "ababac";
+        int[] next = new int[s.length()];
+        getNext(next, s);
+        System.out.println(Arrays.toString(next));
+
     }
 }
