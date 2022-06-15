@@ -13,7 +13,12 @@ import java.util.*;
  * @Version: 1.0
  */
 public class Test {
-    public static void main(String[] args) {
-        int[] nums = {7, 2, 4};
+    public static void main(String[] args){
+        List<Integer> list = new ArrayList<>();
+        list.add(1);
+        list.add(2);
+        list.add(3);
+
+
     }
 }
