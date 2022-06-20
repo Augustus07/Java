@@ -4,111 +4,32 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8263b0f5-4cdf-45fc-b16d-c5d290d80c13" name="Changes" comment="java learning record">
-      <change afterPath="$PROJECT_DIR$/dataStructure/src/main/java/binaryTree/BinaryTree.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dataStructure/src/main/java/linkedList/LinkedList.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/netty/src/main/java/cn/itcast/netty/ByteBuf/ByteBufConstructor.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/netty/src/main/java/cn/itcast/netty/ByteBuf/TestByteBuf.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/netty/src/main/java/cn/itcast/netty/ByteBuf/TestByteBufDirectAndHeap.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/netty/src/main/java/cn/itcast/netty/ByteBuf/TestByteBufReadAndWrite.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/netty/src/main/java/cn/itcast/netty/components/EventLoop/EventLoop.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/netty/src/main/java/cn/itcast/netty/components/EventLoop/ioEvent/EventLoopClient.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/netty/src/main/java/cn/itcast/netty/components/EventLoop/ioEvent/EventLoopServer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/netty/src/main/java/cn/itcast/netty/components/EventLoop/ioEventDivisionOfWork/EventLoopClient.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/netty/src/main/java/cn/itcast/netty/components/EventLoop/ioEventDivisionOfWork/EventLoopServer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/netty/src/main/java/cn/itcast/netty/components/EventLoop/ioEventDivisonOfWorkImprove/EventLoopClient.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/netty/src/main/java/cn/itcast/netty/components/EventLoop/ioEventDivisonOfWorkImprove/EventLoopServer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/netty/src/main/java/cn/itcast/netty/components/EventLoop/ordinaryEventAndScheduleEvent/TestEventLoop.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/netty/src/main/java/cn/itcast/netty/components/channel/channel.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/netty/src/main/java/cn/itcast/netty/components/channel/channelFuture/closeProblem/CloseFutureClient.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/netty/src/main/java/cn/itcast/netty/components/channel/channelFuture/closeProblem/EventLoopServer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/netty/src/main/java/cn/itcast/netty/components/channel/channelFuture/closeProblemGracefully/CloseFutureClient.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/netty/src/main/java/cn/itcast/netty/components/channel/channelFuture/closeProblemGracefully/EventLoopServer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/netty/src/main/java/cn/itcast/netty/components/channel/channelFuture/closeProblemSolve/CloseFutureClient.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/netty/src/main/java/cn/itcast/netty/components/channel/channelFuture/closeProblemSolve/EventLoopServer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/netty/src/main/java/cn/itcast/netty/components/channel/channelFuture/connectProblem/EventLoopClient.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/netty/src/main/java/cn/itcast/netty/components/channel/channelFuture/connectProblem/EventLoopServer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/netty/src/main/java/cn/itcast/netty/components/channel/channelFuture/connectProblemSolve/EventLoopClient.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/netty/src/main/java/cn/itcast/netty/components/channel/channelFuture/connectProblemSolve/EventLoopServer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/netty/src/main/java/cn/itcast/netty/components/channel/writeAndwriteandflush/EventLoopClient.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/netty/src/main/java/cn/itcast/netty/components/channel/writeAndwriteandflush/EventLoopServer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/netty/src/main/java/cn/itcast/netty/components/futureAndPromise/Future&amp;Promise.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/netty/src/main/java/cn/itcast/netty/components/futureAndPromise/TestJdkFuture.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/netty/src/main/java/cn/itcast/netty/components/futureAndPromise/TestNettyFuture.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/netty/src/main/java/cn/itcast/netty/components/futureAndPromise/TestNettyPromise.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/netty/src/main/java/cn/itcast/netty/components/pipelineAndHandler/CloseFutureClient.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/netty/src/main/java/cn/itcast/netty/components/pipelineAndHandler/TestEmbeddedChannel.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/netty/src/main/java/cn/itcast/netty/components/pipelineAndHandler/TestPipeline.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/netty/src/main/java/cn/itcast/netty/nettyPractice/a/HelloClient.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/netty/src/main/java/cn/itcast/netty/nettyPractice/a/HelloServer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/netty/src/main/java/cn/itcast/netty/nettyPractice/a/netty.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/netty/src/main/java/cn/itcast/nio/c4/threadoptimization/MultiThreadServer .png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/netty/src/main/java/cn/itcast/nio/c4/threadoptimization/a/Client.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/netty/src/main/java/cn/itcast/nio/c4/threadoptimization/a/MultiThreadServer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/netty/src/main/java/cn/itcast/nio/c4/threadoptimization/b/Client.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/netty/src/main/java/cn/itcast/nio/c4/threadoptimization/b/MultiThreadServer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/netty/src/main/java/cn/itcast/nio/c4/threadoptimization/c/Client.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/netty/src/main/java/cn/itcast/nio/c4/threadoptimization/c/MultiThreadServer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/netty/src/main/java/cn/itcast/nio/c4/threadoptimization/d/Client.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/netty/src/main/java/cn/itcast/nio/c4/threadoptimization/d/MultiThreadServer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/netty/src/main/java/cn/itcast/nio/c5/AioFileChannel.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/netty/src/main/java/cn/itcast/nio/c5/AioServer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/netty/src/main/java/cn/itcast/nio/c5/Client.java" afterDir="false" />
+    <list default="true" id="8263b0f5-4cdf-45fc-b16d-c5d290d80c13" name="Changes" comment="Merge remote-tracking branch 'Java/master'&#10;&#10;# Conflicts:&#10;#&#9;.idea/workspace.xml&#10;#&#9;algorithm/src/main/java/test/Test.java">
+      <change afterPath="$PROJECT_DIR$/netty/src/main/java/cn/itcast/netty/ByteBuf/TestByteBufComposite.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/netty/src/main/java/cn/itcast/netty/ByteBuf/TestByteBufRetainAndRelease.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/netty/src/main/java/cn/itcast/netty/ByteBuf/TestByteBufSlice.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/netty/src/main/java/cn/itcast/netty/ByteBuf/TestUnpooled.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/netty/src/main/java/cn/itcast/netty/ByteBuf/practice/EchoClient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/netty/src/main/java/cn/itcast/netty/ByteBuf/practice/EchoServer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/netty/src/main/java/cn/itcast/nettyadvanced/solve/customprotocol/TestLengthFiledDecoder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/netty/src/main/java/cn/itcast/nettyadvanced/solve/customprotocol/TestLengthFiledDecoder1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/netty/src/main/java/cn/itcast/nettyadvanced/solve/customprotocol/redis/TestRedis.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/netty/src/main/java/cn/itcast/nettyadvanced/solve/delimiter/HelloWorldClient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/netty/src/main/java/cn/itcast/nettyadvanced/solve/delimiter/HelloWorldServer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/netty/src/main/java/cn/itcast/nettyadvanced/solve/fixedLengthDecoder/HelloWorldClient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/netty/src/main/java/cn/itcast/nettyadvanced/solve/fixedLengthDecoder/HelloWorldServer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/netty/src/main/java/cn/itcast/nettyadvanced/solve/shortconnection/HelloWorldClient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/netty/src/main/java/cn/itcast/nettyadvanced/solve/shortconnection/HelloWorldServer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/netty/src/main/java/cn/itcast/nettyadvanced/stickybagHalfpackProblem/halfpackProblem/HelloWorldClient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/netty/src/main/java/cn/itcast/nettyadvanced/stickybagHalfpackProblem/halfpackProblem/HelloWorldServer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/netty/src/main/java/cn/itcast/nettyadvanced/stickybagHalfpackProblem/stickbag_halfpack.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/netty/src/main/java/cn/itcast/nettyadvanced/stickybagHalfpackProblem/stickybagProblem/HelloWorldClient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/netty/src/main/java/cn/itcast/nettyadvanced/stickybagHalfpackProblem/stickybagProblem/HelloWorldServer.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/algorithm/src/main/java/test/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/algorithm/src/main/java/test/Test.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataStructure/src/main/java/sortalg/bubblesort/Bubblesort.java" beforeDir="false" afterPath="$PROJECT_DIR$/dataStructure/src/main/java/sortAlgorithm/bubblesort/Bubblesort.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataStructure/src/main/java/sortalg/bucketsort/Bucketsort.java" beforeDir="false" afterPath="$PROJECT_DIR$/dataStructure/src/main/java/sortAlgorithm/bucketsort/Bucketsort.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataStructure/src/main/java/sortalg/heapsort/heapsort.java" beforeDir="false" afterPath="$PROJECT_DIR$/dataStructure/src/main/java/sortAlgorithm/heapsort/heapsort.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataStructure/src/main/java/sortalg/insertionsort/Insertionsort.java" beforeDir="false" afterPath="$PROJECT_DIR$/dataStructure/src/main/java/sortAlgorithm/insertionsort/Insertionsort.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataStructure/src/main/java/sortalg/mergesort/Mergesort.java" beforeDir="false" afterPath="$PROJECT_DIR$/dataStructure/src/main/java/sortAlgorithm/mergesort/Mergesort.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataStructure/src/main/java/sortalg/mergesort/mergesort.png" beforeDir="false" afterPath="$PROJECT_DIR$/dataStructure/src/main/java/sortAlgorithm/mergesort/mergesort.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataStructure/src/main/java/sortalg/quicksort/Quicksort.java" beforeDir="false" afterPath="$PROJECT_DIR$/dataStructure/src/main/java/sortAlgorithm/quicksort/Quicksort.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataStructure/src/main/java/sortalg/quicksort/quicksort.png" beforeDir="false" afterPath="$PROJECT_DIR$/dataStructure/src/main/java/sortAlgorithm/quicksort/quicksort.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataStructure/src/main/java/sortalg/selectionsort/Selectionsort.java" beforeDir="false" afterPath="$PROJECT_DIR$/dataStructure/src/main/java/sortAlgorithm/selectionsort/Selectionsort.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataStructure/src/main/java/sortalg/shellsort/Shellsort.java" beforeDir="false" afterPath="$PROJECT_DIR$/dataStructure/src/main/java/sortAlgorithm/shellsort/Shellsort.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataStructure/src/main/java/sortalg/shellsort/shellsort.png" beforeDir="false" afterPath="$PROJECT_DIR$/dataStructure/src/main/java/sortAlgorithm/shellsort/shellsort.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/netty/src/main/java/cn/itcast/netty/c1/bytebuffer/ByteBufferUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/netty/src/main/java/cn/itcast/nio/c1/bytebuffer/ByteBufferUtil.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/netty/src/main/java/cn/itcast/netty/c1/bytebuffer/TestByteBuffer.java" beforeDir="false" afterPath="$PROJECT_DIR$/netty/src/main/java/cn/itcast/nio/c1/bytebuffer/TestByteBuffer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/netty/src/main/java/cn/itcast/netty/c1/bytebuffer/TestByteBufferAllocate.java" beforeDir="false" afterPath="$PROJECT_DIR$/netty/src/main/java/cn/itcast/nio/c1/bytebuffer/TestByteBufferAllocate.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/netty/src/main/java/cn/itcast/netty/c1/bytebuffer/TestByteBufferRead.java" beforeDir="false" afterPath="$PROJECT_DIR$/netty/src/main/java/cn/itcast/nio/c1/bytebuffer/TestByteBufferRead.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/netty/src/main/java/cn/itcast/netty/c1/bytebuffer/TestByteBufferReadWrite.java" beforeDir="false" afterPath="$PROJECT_DIR$/netty/src/main/java/cn/itcast/nio/c1/bytebuffer/TestByteBufferReadWrite.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/netty/src/main/java/cn/itcast/netty/c1/bytebuffer/TestByteBufferString.java" beforeDir="false" afterPath="$PROJECT_DIR$/netty/src/main/java/cn/itcast/nio/c1/bytebuffer/TestByteBufferString.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/netty/src/main/java/cn/itcast/netty/c1/bytebuffer/TestByteStickPacks.java" beforeDir="false" afterPath="$PROJECT_DIR$/netty/src/main/java/cn/itcast/nio/c1/bytebuffer/TestByteStickPacks.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/netty/src/main/java/cn/itcast/netty/c1/bytebuffer/TestGatheringWrites.java" beforeDir="false" afterPath="$PROJECT_DIR$/netty/src/main/java/cn/itcast/nio/c1/bytebuffer/TestGatheringWrites.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/netty/src/main/java/cn/itcast/netty/c1/bytebuffer/TestScatteringReads.java" beforeDir="false" afterPath="$PROJECT_DIR$/netty/src/main/java/cn/itcast/nio/c1/bytebuffer/TestScatteringReads.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/netty/src/main/java/cn/itcast/netty/c1/filechannel/TestFileChannelTransferTo.java" beforeDir="false" afterPath="$PROJECT_DIR$/netty/src/main/java/cn/itcast/nio/c1/filechannel/TestFileChannelTransferTo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/netty/src/main/java/cn/itcast/netty/c1/filechannel/TestFileChannelTransferToBigFile.java" beforeDir="false" afterPath="$PROJECT_DIR$/netty/src/main/java/cn/itcast/nio/c1/filechannel/TestFileChannelTransferToBigFile.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/netty/src/main/java/cn/itcast/netty/c1/path/TestCreateDirectory.java" beforeDir="false" afterPath="$PROJECT_DIR$/netty/src/main/java/cn/itcast/nio/c1/path/TestCreateDirectory.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/netty/src/main/java/cn/itcast/netty/c1/path/TestDirectoryDelete.java" beforeDir="false" afterPath="$PROJECT_DIR$/netty/src/main/java/cn/itcast/nio/c1/path/TestDirectoryDelete.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/netty/src/main/java/cn/itcast/netty/c1/path/TestFileCopy.java" beforeDir="false" afterPath="$PROJECT_DIR$/netty/src/main/java/cn/itcast/nio/c1/path/TestFileCopy.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/netty/src/main/java/cn/itcast/netty/c1/path/TestFileDelete.java" beforeDir="false" afterPath="$PROJECT_DIR$/netty/src/main/java/cn/itcast/nio/c1/path/TestFileDelete.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/netty/src/main/java/cn/itcast/netty/c1/path/TestFileExists.java" beforeDir="false" afterPath="$PROJECT_DIR$/netty/src/main/java/cn/itcast/nio/c1/path/TestFileExists.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/netty/src/main/java/cn/itcast/netty/c1/path/TestFileMove.java" beforeDir="false" afterPath="$PROJECT_DIR$/netty/src/main/java/cn/itcast/nio/c1/path/TestFileMove.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/netty/src/main/java/cn/itcast/netty/c1/path/TestFilesCopy.java" beforeDir="false" afterPath="$PROJECT_DIR$/netty/src/main/java/cn/itcast/nio/c1/path/TestFilesCopy.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/netty/src/main/java/cn/itcast/netty/c1/path/TestFilesDelete.java" beforeDir="false" afterPath="$PROJECT_DIR$/netty/src/main/java/cn/itcast/nio/c1/path/TestFilesDelete.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/netty/src/main/java/cn/itcast/netty/c1/path/TestFilesWalkFileTree.java" beforeDir="false" afterPath="$PROJECT_DIR$/netty/src/main/java/cn/itcast/nio/c1/path/TestFilesWalkFileTree.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/netty/src/main/java/cn/itcast/netty/c1/path/TestPath.java" beforeDir="false" afterPath="$PROJECT_DIR$/netty/src/main/java/cn/itcast/nio/c1/path/TestPath.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/netty/src/main/java/cn/itcast/netty/c4/nioBlocking/Client.java" beforeDir="false" afterPath="$PROJECT_DIR$/netty/src/main/java/cn/itcast/nio/c4/nioBlocking/Client.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/netty/src/main/java/cn/itcast/netty/c4/nioBlocking/Server.java" beforeDir="false" afterPath="$PROJECT_DIR$/netty/src/main/java/cn/itcast/nio/c4/nioBlocking/Server.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/netty/src/main/java/cn/itcast/netty/c4/nioNonBlocking/Client.java" beforeDir="false" afterPath="$PROJECT_DIR$/netty/src/main/java/cn/itcast/nio/c4/nioNonBlocking/Client.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/netty/src/main/java/cn/itcast/netty/c4/nioNonBlocking/Server.java" beforeDir="false" afterPath="$PROJECT_DIR$/netty/src/main/java/cn/itcast/nio/c4/nioNonBlocking/Server.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/netty/src/main/java/cn/itcast/netty/c4/selector/a_TestSelectorServerAccept/Client.java" beforeDir="false" afterPath="$PROJECT_DIR$/netty/src/main/java/cn/itcast/nio/c4/selector/a_TestSelectorServerAccept/Client.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/netty/src/main/java/cn/itcast/netty/c4/selector/a_TestSelectorServerAccept/TestSelectorServerAccept.java" beforeDir="false" afterPath="$PROJECT_DIR$/netty/src/main/java/cn/itcast/nio/c4/selector/a_TestSelectorServerAccept/TestSelectorServerAccept.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/netty/src/main/java/cn/itcast/netty/c4/selector/b_TestSelectorCancel/Client.java" beforeDir="false" afterPath="$PROJECT_DIR$/netty/src/main/java/cn/itcast/nio/c4/selector/b_TestSelectorCancel/Client.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/netty/src/main/java/cn/itcast/netty/c4/selector/b_TestSelectorCancel/TestSelectorCancel.java" beforeDir="false" afterPath="$PROJECT_DIR$/netty/src/main/java/cn/itcast/nio/c4/selector/b_TestSelectorCancel/TestSelectorCancel.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/netty/src/main/java/cn/itcast/netty/c4/selector/c_TestSelectorRead/Client.java" beforeDir="false" afterPath="$PROJECT_DIR$/netty/src/main/java/cn/itcast/nio/c4/selector/c_TestSelectorRead/Client.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/netty/src/main/java/cn/itcast/netty/c4/selector/c_TestSelectorRead/TestSelectorRead.java" beforeDir="false" afterPath="$PROJECT_DIR$/netty/src/main/java/cn/itcast/nio/c4/selector/c_TestSelectorRead/TestSelectorRead.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/netty/src/main/java/cn/itcast/netty/c4/selector/d_TestSelectorClientClose/Client.java" beforeDir="false" afterPath="$PROJECT_DIR$/netty/src/main/java/cn/itcast/nio/c4/selector/d_TestSelectorClientClose/Client.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/netty/src/main/java/cn/itcast/netty/c4/selector/d_TestSelectorClientClose/TestSelectorClientClose.java" beforeDir="false" afterPath="$PROJECT_DIR$/netty/src/main/java/cn/itcast/nio/c4/selector/d_TestSelectorClientClose/TestSelectorClientClose.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/netty/src/main/java/cn/itcast/netty/c4/selector/e_TestClientMessageOutOfIndex/Client.java" beforeDir="false" afterPath="$PROJECT_DIR$/netty/src/main/java/cn/itcast/nio/c4/selector/e_TestClientMessageOutOfIndex/Client.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/netty/src/main/java/cn/itcast/netty/c4/selector/e_TestClientMessageOutOfIndex/Server.java" beforeDir="false" afterPath="$PROJECT_DIR$/netty/src/main/java/cn/itcast/nio/c4/selector/e_TestClientMessageOutOfIndex/Server.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/netty/src/main/java/cn/itcast/netty/c4/selector/e_TestClientMessageOutOfIndex/messageOutOfByteBufferIndex.png" beforeDir="false" afterPath="$PROJECT_DIR$/netty/src/main/java/cn/itcast/nio/c4/selector/e_TestClientMessageOutOfIndex/messageOutOfByteBufferIndex.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/netty/src/main/java/cn/itcast/netty/c4/selector/f_TestSelectorWrite/Client.java" beforeDir="false" afterPath="$PROJECT_DIR$/netty/src/main/java/cn/itcast/nio/c4/selector/f_TestSelectorWrite/Client.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/netty/src/main/java/cn/itcast/netty/c4/selector/f_TestSelectorWrite/Server.java" beforeDir="false" afterPath="$PROJECT_DIR$/netty/src/main/java/cn/itcast/nio/c4/selector/f_TestSelectorWrite/Server.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/netty/src/main/java/cn/itcast/netty/c4/selector/g_TestSelectorWriteImprove/Client.java" beforeDir="false" afterPath="$PROJECT_DIR$/netty/src/main/java/cn/itcast/nio/c4/selector/g_TestSelectorWriteImprove/Client.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/netty/src/main/java/cn/itcast/netty/c4/selector/g_TestSelectorWriteImprove/Server.java" beforeDir="false" afterPath="$PROJECT_DIR$/netty/src/main/java/cn/itcast/nio/c4/selector/g_TestSelectorWriteImprove/Server.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/netty/src/main/resources/logback.xml" beforeDir="false" afterPath="$PROJECT_DIR$/netty/src/main/resources/logback.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/netty/tmp/data.txt" beforeDir="false" afterPath="$PROJECT_DIR$/netty/tmp/data.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/netty/src/main/java/cn/itcast/netty/nettyPractice/a/HelloClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/netty/src/main/java/cn/itcast/netty/nettyPractice/HelloClient.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/netty/src/main/java/cn/itcast/netty/nettyPractice/a/HelloServer.java" beforeDir="false" afterPath="$PROJECT_DIR$/netty/src/main/java/cn/itcast/netty/nettyPractice/HelloServer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/netty/src/main/java/cn/itcast/netty/nettyPractice/a/netty.png" beforeDir="false" afterPath="$PROJECT_DIR$/netty/src/main/java/cn/itcast/netty/nettyPractice/netty.png" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -153,36 +74,36 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;extract.method.default.visibility&quot;: &quot;private&quot;,
-    &quot;jdk.selected.JAVA_MODULE&quot;: &quot;1.8&quot;,
-    &quot;last_opened_file_path&quot;: &quot;E:/Mycode/java/java_practice/netty/src/main/java/cn/itcast/netty/c3/channel/channelFuture/closeProblemGracefully&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;com.maddyhome.idea.vim.ui.VimEmulationConfigurable&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "extract.method.default.visibility": "private",
+    "jdk.selected.JAVA_MODULE": "1.8",
+    "last_opened_file_path": "E:/Mycode/java/java_practice/netty/src/main/java/cn/itcast/nettyadvanced/solve/delimiter",
+    "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "preferences.intentionPowerPack"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\Mycode\java\java_practice\netty\src\main\java\cn\itcast\nettyadvanced\solve\delimiter" />
+      <recent name="E:\Mycode\java\java_practice\netty\src\main\java\cn\itcast\nettyadvanced\solve\fixedLengthDecoder" />
+      <recent name="E:\Mycode\java\java_practice\netty\src\main\java\cn\itcast\nettyadvanced\solve" />
+      <recent name="E:\Mycode\java\java_practice\netty\src\main\java\cn\itcast\netty\advanced\halfpackProblem" />
       <recent name="E:\Mycode\java\java_practice\netty\src\main\java\cn\itcast\netty\c3\channel\channelFuture\closeProblemGracefully" />
-      <recent name="E:\Mycode\java\java_practice\netty\src\main\java\cn\itcast\netty\c3\channel\channelFuture\closeProblemSolve" />
-      <recent name="E:\Mycode\java\java_practice\netty\src\main\java\cn\itcast\netty\c3\channel\channelFuture\solve" />
-      <recent name="E:\Mycode\java\java_practice\netty\src\main\java\cn\itcast\netty\c3\channel\channelFutureProblem" />
-      <recent name="E:\Mycode\java\java_practice\netty\src\main\java\cn\itcast\netty\c3\channel\writeAndwriteandflush" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\Mycode\java\java_practice\netty\src\main\java\cn\itcast\nettyadvanced\stickybagHalfpackProblem" />
+      <recent name="E:\Mycode\java\java_practice\netty\src\main\java\cn\itcast\netty\advanced" />
       <recent name="E:\Mycode\java\java_practice\netty\src\main\java\cn\itcast\netty\c4\ByteBuf" />
       <recent name="E:\Mycode\java\java_practice\netty\src\main\java\cn\itcast\netty\c3\futureAndPromise" />
       <recent name="E:\Mycode\java\java_practice\netty\src\main\java\cn\itcast\netty\c3\channel" />
-      <recent name="E:\Mycode\java\java_practice\netty\src\main\java\cn\itcast\netty\c3\EventLoop" />
-      <recent name="E:\Mycode\java\java_practice\netty\src\main\java\cn\itcast\netty\c3\EventLoop\ordinaryEventAndScheduleEvent" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="cn.itcast.netty.c3.pipelineAndHandler" />
@@ -191,13 +112,13 @@
       <recent name="cn.itcast.netty.c4.threadoptimization" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.TestByteBufReadAndWrite">
-    <configuration name="CloseFutureClient" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="cn.itcast.netty.components.pipelineAndHandler.CloseFutureClient" />
+  <component name="RunManager" selected="Application.TestRedis">
+    <configuration name="TestLengthFiledDecoder" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="cn.itcast.nettyadvanced.solve.customprotocol.TestLengthFiledDecoder" />
       <module name="netty" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="cn.itcast.netty.components.pipelineAndHandler.*" />
+          <option name="PATTERN" value="cn.itcast.nettyadvanced.solve.customprotocol.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -205,12 +126,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestByteBuf" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="cn.itcast.netty.c4.ByteBuf.TestByteBuf" />
+    <configuration name="TestLengthFiledDecoder1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="cn.itcast.nettyadvanced.solve.customprotocol.TestLengthFiledDecoder1" />
       <module name="netty" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="cn.itcast.netty.c4.ByteBuf.*" />
+          <option name="PATTERN" value="cn.itcast.nettyadvanced.solve.customprotocol.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -218,12 +139,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestByteBufReadAndWrite" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="cn.itcast.netty.ByteBuf.TestByteBufReadAndWrite" />
+    <configuration name="TestRedis" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="cn.itcast.nettyadvanced.solve.customprotocol.redis.TestRedis" />
       <module name="netty" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="cn.itcast.netty.ByteBuf.*" />
+          <option name="PATTERN" value="cn.itcast.nettyadvanced.solve.customprotocol.redis.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -231,12 +152,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestEmbeddedChannel" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="cn.itcast.netty.components.pipelineAndHandler.TestEmbeddedChannel" />
+    <configuration name="cn.itcast.nettyadvanced.solve.delimiter.HelloWorldClient" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="cn.itcast.nettyadvanced.solve.delimiter.HelloWorldClient" />
       <module name="netty" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="cn.itcast.netty.components.pipelineAndHandler.*" />
+          <option name="PATTERN" value="cn.itcast.nettyadvanced.solve.delimiter.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -244,13 +165,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="cn.itcast.netty.c4.ByteBuf.TestByteBufDirectAndHeap" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="cn.itcast.netty.c4.ByteBuf.TestByteBufDirectAndHeap" />
+    <configuration name="cn.itcast.nettyadvanced.solve.delimiter.HelloWorldServer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="cn.itcast.nettyadvanced.solve.delimiter.HelloWorldServer" />
       <module name="netty" />
-      <option name="VM_PARAMETERS" value="-Dio.netty.allocator.type=unpooled" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="cn.itcast.netty.c4.ByteBuf.*" />
+          <option name="PATTERN" value="cn.itcast.nettyadvanced.solve.delimiter.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -259,19 +179,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.cn.itcast.netty.components.pipelineAndHandler.CloseFutureClient" />
-      <item itemvalue="Application.TestByteBufReadAndWrite" />
-      <item itemvalue="Application.cn.itcast.netty.components.pipelineAndHandler.TestEmbeddedChannel" />
-      <item itemvalue="Application.TestByteBuf" />
-      <item itemvalue="Application.cn.itcast.netty.c4.ByteBuf.TestByteBufDirectAndHeap" />
+      <item itemvalue="Application.TestLengthFiledDecoder" />
+      <item itemvalue="Application.TestLengthFiledDecoder1" />
+      <item itemvalue="Application.TestRedis" />
+      <item itemvalue="Application.cn.itcast.nettyadvanced.solve.delimiter.HelloWorldClient" />
+      <item itemvalue="Application.cn.itcast.nettyadvanced.solve.delimiter.HelloWorldServer" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.TestByteBufReadAndWrite" />
-        <item itemvalue="Application.cn.itcast.netty.c4.ByteBuf.TestByteBufDirectAndHeap" />
-        <item itemvalue="Application.TestByteBuf" />
-        <item itemvalue="Application.cn.itcast.netty.components.pipelineAndHandler.TestEmbeddedChannel" />
-        <item itemvalue="Application.cn.itcast.netty.components.pipelineAndHandler.CloseFutureClient" />
+        <item itemvalue="Application.TestRedis" />
+        <item itemvalue="Application.TestLengthFiledDecoder1" />
+        <item itemvalue="Application.TestLengthFiledDecoder" />
+        <item itemvalue="Application.cn.itcast.nettyadvanced.solve.delimiter.HelloWorldClient" />
+        <item itemvalue="Application.cn.itcast.nettyadvanced.solve.delimiter.HelloWorldServer" />
       </list>
     </recent_temporary>
   </component>
@@ -311,7 +231,9 @@
       <workItem from="1655532851221" duration="4196000" />
       <workItem from="1655558490086" duration="3635000" />
       <workItem from="1655620924474" duration="10608000" />
-      <workItem from="1655711077751" duration="14532000" />
+      <workItem from="1655711077751" duration="14659000" />
+      <workItem from="1655805918126" duration="7682000" />
+      <workItem from="1656050648086" duration="9880000" />
     </task>
     <task id="LOCAL-00001" summary="java learning record">
       <created>1653821280273</created>
@@ -355,7 +277,14 @@
       <option name="project" value="LOCAL" />
       <updated>1654479879386</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Merge remote-tracking branch 'Java/master'&#10;&#10;# Conflicts:&#10;#&#9;.idea/workspace.xml&#10;#&#9;algorithm/src/main/java/test/Test.java">
+      <created>1655744753603</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1655744753603</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -374,7 +303,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="java learning record" />
-    <option name="LAST_COMMIT_MESSAGE" value="java learning record" />
+    <MESSAGE value="Merge remote-tracking branch 'Java/master'&#10;&#10;# Conflicts:&#10;#&#9;.idea/workspace.xml&#10;#&#9;algorithm/src/main/java/test/Test.java" />
+    <option name="LAST_COMMIT_MESSAGE" value="Merge remote-tracking branch 'Java/master'&#10;&#10;# Conflicts:&#10;#&#9;.idea/workspace.xml&#10;#&#9;algorithm/src/main/java/test/Test.java" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
