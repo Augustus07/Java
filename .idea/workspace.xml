@@ -4,33 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8263b0f5-4cdf-45fc-b16d-c5d290d80c13" name="Changes" comment="Merge remote-tracking branch 'Java/master'&#10;&#10;# Conflicts:&#10;#&#9;.idea/workspace.xml&#10;#&#9;algorithm/src/main/java/test/Test.java">
-      <change afterPath="$PROJECT_DIR$/netty/src/main/java/cn/itcast/chatroomdemo/client/ChatClient.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/netty/src/main/java/cn/itcast/chatroomdemo/config/Config.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/netty/src/main/java/cn/itcast/chatroomdemo/protocol/MessageCodec.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/netty/src/main/java/cn/itcast/chatroomdemo/protocol/ProtocolFrameDecoder.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/netty/src/main/java/cn/itcast/chatroomdemo/protocol/Serializer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/netty/src/main/java/cn/itcast/chatroomdemo/protocol/TestMessageCodec.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/netty/src/main/java/cn/itcast/chatroomdemo/protocol/protocol.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/netty/src/main/java/cn/itcast/chatroomdemo/server/ChatServer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/netty/src/main/java/cn/itcast/chatroomdemo/server/handler/ChatRequestMessageHandler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/netty/src/main/java/cn/itcast/chatroomdemo/server/handler/GroupChatRequestMessageHandler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/netty/src/main/java/cn/itcast/chatroomdemo/server/handler/GroupCreateRequestMessageHandler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/netty/src/main/java/cn/itcast/chatroomdemo/server/handler/GroupJoinRequestMessageHandler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/netty/src/main/java/cn/itcast/chatroomdemo/server/handler/GroupMembersRequestMessageHandler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/netty/src/main/java/cn/itcast/chatroomdemo/server/handler/GroupQuitRequestMessageHandler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/netty/src/main/java/cn/itcast/chatroomdemo/server/handler/LoginRequestMessageHandler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/netty/src/main/java/cn/itcast/chatroomdemo/server/handler/QuitHandler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/netty/src/main/java/cn/itcast/chatroomdemo/server/service/UserService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/netty/src/main/java/cn/itcast/chatroomdemo/server/service/UserServiceMemoryImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/netty/src/main/java/cn/itcast/nettyadvanced/http/TestHttp.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/netty/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/algorithm/src/main/java/test/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/algorithm/src/main/java/test/Test.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/netty/src/main/java/cn/itcast/nettyadvanced/solve/customprotocol/redis/TestRedis.java" beforeDir="false" afterPath="$PROJECT_DIR$/netty/src/main/java/cn/itcast/nettyadvanced/redis/TestRedis.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/netty/src/main/java/cn/itcast/nettyadvanced/solve/delimiter/HelloWorldServer.java" beforeDir="false" afterPath="$PROJECT_DIR$/netty/src/main/java/cn/itcast/nettyadvanced/solve/delimiter/HelloWorldServer.java" afterDir="false" />
-    </list>
+    <list default="true" id="8263b0f5-4cdf-45fc-b16d-c5d290d80c13" name="Changes" comment="Merge remote-tracking branch 'Java/master'&#10;&#10;# Conflicts:&#10;#&#9;.idea/workspace.xml&#10;#&#9;algorithm/src/main/java/test/Test.java" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -251,7 +225,7 @@
       <workItem from="1656940664650" duration="1074000" />
       <workItem from="1657023280737" duration="10380000" />
       <workItem from="1657090806682" duration="3722000" />
-      <workItem from="1657103312425" duration="11212000" />
+      <workItem from="1657103312425" duration="11566000" />
     </task>
     <task id="LOCAL-00001" summary="java learning record">
       <created>1653821280273</created>
@@ -309,7 +283,21 @@
       <option name="project" value="LOCAL" />
       <updated>1656083668151</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="Merge remote-tracking branch 'Java/master'&#10;&#10;# Conflicts:&#10;#&#9;.idea/workspace.xml&#10;#&#9;algorithm/src/main/java/test/Test.java">
+      <created>1657119829677</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1657119829677</updated>
+    </task>
+    <task id="LOCAL-00010" summary="Merge remote-tracking branch 'Java/master'&#10;&#10;# Conflicts:&#10;#&#9;.idea/workspace.xml&#10;#&#9;algorithm/src/main/java/test/Test.java">
+      <created>1657119845379</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1657119845379</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
