@@ -1,4 +1,4 @@
-package cn.itcast.nettyadvanced.solve.customprotocol.redis;
+package cn.itcast.nettyadvanced.redis;
 
 import io.netty.bootstrap.Bootstrap;
 import io.netty.buffer.ByteBuf;

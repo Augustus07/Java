@@ -5,31 +5,31 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8263b0f5-4cdf-45fc-b16d-c5d290d80c13" name="Changes" comment="Merge remote-tracking branch 'Java/master'&#10;&#10;# Conflicts:&#10;#&#9;.idea/workspace.xml&#10;#&#9;algorithm/src/main/java/test/Test.java">
-      <change afterPath="$PROJECT_DIR$/netty/src/main/java/cn/itcast/netty/ByteBuf/TestByteBufComposite.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/netty/src/main/java/cn/itcast/netty/ByteBuf/TestByteBufRetainAndRelease.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/netty/src/main/java/cn/itcast/netty/ByteBuf/TestByteBufSlice.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/netty/src/main/java/cn/itcast/netty/ByteBuf/TestUnpooled.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/netty/src/main/java/cn/itcast/netty/ByteBuf/practice/EchoClient.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/netty/src/main/java/cn/itcast/netty/ByteBuf/practice/EchoServer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/netty/src/main/java/cn/itcast/nettyadvanced/solve/customprotocol/TestLengthFiledDecoder.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/netty/src/main/java/cn/itcast/nettyadvanced/solve/customprotocol/TestLengthFiledDecoder1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/netty/src/main/java/cn/itcast/nettyadvanced/solve/customprotocol/redis/TestRedis.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/netty/src/main/java/cn/itcast/nettyadvanced/solve/delimiter/HelloWorldClient.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/netty/src/main/java/cn/itcast/nettyadvanced/solve/delimiter/HelloWorldServer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/netty/src/main/java/cn/itcast/nettyadvanced/solve/fixedLengthDecoder/HelloWorldClient.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/netty/src/main/java/cn/itcast/nettyadvanced/solve/fixedLengthDecoder/HelloWorldServer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/netty/src/main/java/cn/itcast/nettyadvanced/solve/shortconnection/HelloWorldClient.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/netty/src/main/java/cn/itcast/nettyadvanced/solve/shortconnection/HelloWorldServer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/netty/src/main/java/cn/itcast/nettyadvanced/stickybagHalfpackProblem/halfpackProblem/HelloWorldClient.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/netty/src/main/java/cn/itcast/nettyadvanced/stickybagHalfpackProblem/halfpackProblem/HelloWorldServer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/netty/src/main/java/cn/itcast/nettyadvanced/stickybagHalfpackProblem/stickbag_halfpack.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/netty/src/main/java/cn/itcast/nettyadvanced/stickybagHalfpackProblem/stickybagProblem/HelloWorldClient.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/netty/src/main/java/cn/itcast/nettyadvanced/stickybagHalfpackProblem/stickybagProblem/HelloWorldServer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/netty/src/main/java/cn/itcast/chatroomdemo/client/ChatClient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/netty/src/main/java/cn/itcast/chatroomdemo/config/Config.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/netty/src/main/java/cn/itcast/chatroomdemo/protocol/MessageCodec.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/netty/src/main/java/cn/itcast/chatroomdemo/protocol/ProtocolFrameDecoder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/netty/src/main/java/cn/itcast/chatroomdemo/protocol/Serializer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/netty/src/main/java/cn/itcast/chatroomdemo/protocol/TestMessageCodec.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/netty/src/main/java/cn/itcast/chatroomdemo/protocol/protocol.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/netty/src/main/java/cn/itcast/chatroomdemo/server/ChatServer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/netty/src/main/java/cn/itcast/chatroomdemo/server/handler/ChatRequestMessageHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/netty/src/main/java/cn/itcast/chatroomdemo/server/handler/GroupChatRequestMessageHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/netty/src/main/java/cn/itcast/chatroomdemo/server/handler/GroupCreateRequestMessageHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/netty/src/main/java/cn/itcast/chatroomdemo/server/handler/GroupJoinRequestMessageHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/netty/src/main/java/cn/itcast/chatroomdemo/server/handler/GroupMembersRequestMessageHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/netty/src/main/java/cn/itcast/chatroomdemo/server/handler/GroupQuitRequestMessageHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/netty/src/main/java/cn/itcast/chatroomdemo/server/handler/LoginRequestMessageHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/netty/src/main/java/cn/itcast/chatroomdemo/server/handler/QuitHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/netty/src/main/java/cn/itcast/chatroomdemo/server/service/UserService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/netty/src/main/java/cn/itcast/chatroomdemo/server/service/UserServiceMemoryImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/netty/src/main/java/cn/itcast/nettyadvanced/http/TestHttp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/netty/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/algorithm/src/main/java/test/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/algorithm/src/main/java/test/Test.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/netty/src/main/java/cn/itcast/netty/nettyPractice/a/HelloClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/netty/src/main/java/cn/itcast/netty/nettyPractice/HelloClient.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/netty/src/main/java/cn/itcast/netty/nettyPractice/a/HelloServer.java" beforeDir="false" afterPath="$PROJECT_DIR$/netty/src/main/java/cn/itcast/netty/nettyPractice/HelloServer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/netty/src/main/java/cn/itcast/netty/nettyPractice/a/netty.png" beforeDir="false" afterPath="$PROJECT_DIR$/netty/src/main/java/cn/itcast/netty/nettyPractice/netty.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/netty/src/main/java/cn/itcast/nettyadvanced/solve/customprotocol/redis/TestRedis.java" beforeDir="false" afterPath="$PROJECT_DIR$/netty/src/main/java/cn/itcast/nettyadvanced/redis/TestRedis.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/netty/src/main/java/cn/itcast/nettyadvanced/solve/delimiter/HelloWorldServer.java" beforeDir="false" afterPath="$PROJECT_DIR$/netty/src/main/java/cn/itcast/nettyadvanced/solve/delimiter/HelloWorldServer.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -40,6 +40,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="FxmlFile" />
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -82,12 +83,13 @@
     "WebServerToolWindowFactoryState": "false",
     "extract.method.default.visibility": "private",
     "jdk.selected.JAVA_MODULE": "1.8",
+    "last_directory_selection": "E:/Mycode/java/java_practice/netty/src/main/java/cn/itcast/chatroomdemo/server/handler",
     "last_opened_file_path": "E:/Mycode/java/java_practice/netty/src/main/java/cn/itcast/nettyadvanced/solve/delimiter",
     "nodejs_package_manager_path": "npm",
     "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.2",
-    "settings.editor.selected.configurable": "preferences.intentionPowerPack"
+    "settings.editor.selected.configurable": "preferences.keymap"
   }
 }]]></component>
   <component name="RecentsManager">
@@ -99,11 +101,14 @@
       <recent name="E:\Mycode\java\java_practice\netty\src\main\java\cn\itcast\netty\c3\channel\channelFuture\closeProblemGracefully" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\Mycode\java\java_practice\netty\src\main\java\cn\itcast\chatroomdemo\protocol" />
+      <recent name="E:\Mycode\java\java_practice\netty\src\main\java\cn\itcast\chatroomdemo" />
       <recent name="E:\Mycode\java\java_practice\netty\src\main\java\cn\itcast\nettyadvanced\stickybagHalfpackProblem" />
       <recent name="E:\Mycode\java\java_practice\netty\src\main\java\cn\itcast\netty\advanced" />
       <recent name="E:\Mycode\java\java_practice\netty\src\main\java\cn\itcast\netty\c4\ByteBuf" />
-      <recent name="E:\Mycode\java\java_practice\netty\src\main\java\cn\itcast\netty\c3\futureAndPromise" />
-      <recent name="E:\Mycode\java\java_practice\netty\src\main\java\cn\itcast\netty\c3\channel" />
+    </key>
+    <key name="MoveInnerDialog.RECENTS_KEY">
+      <recent name="cn.itcast.chatroomdemo.server.handler" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="cn.itcast.netty.c3.pipelineAndHandler" />
@@ -112,13 +117,13 @@
       <recent name="cn.itcast.netty.c4.threadoptimization" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.TestRedis">
-    <configuration name="TestLengthFiledDecoder" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="cn.itcast.nettyadvanced.solve.customprotocol.TestLengthFiledDecoder" />
+  <component name="RunManager" selected="Application.TestMessageCodec">
+    <configuration name="ChatClient" type="Application" factoryName="Application" singleton="false" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="cn.itcast.chatroomdemo.client.ChatClient" />
       <module name="netty" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="cn.itcast.nettyadvanced.solve.customprotocol.*" />
+          <option name="PATTERN" value="cn.itcast.chatroomdemo.client.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -126,12 +131,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestLengthFiledDecoder1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="cn.itcast.nettyadvanced.solve.customprotocol.TestLengthFiledDecoder1" />
+    <configuration name="ChatServer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="cn.itcast.chatroomdemo.server.ChatServer" />
       <module name="netty" />
+      <option name="VM_PARAMETERS" value="-Dfile.encoding=GBK" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="cn.itcast.nettyadvanced.solve.customprotocol.*" />
+          <option name="PATTERN" value="cn.itcast.chatroomdemo.server.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -139,12 +145,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestRedis" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="cn.itcast.nettyadvanced.solve.customprotocol.redis.TestRedis" />
-      <module name="netty" />
+    <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="test.Test" />
+      <module name="algorithm" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="cn.itcast.nettyadvanced.solve.customprotocol.redis.*" />
+          <option name="PATTERN" value="test.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -152,12 +158,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="cn.itcast.nettyadvanced.solve.delimiter.HelloWorldClient" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="cn.itcast.nettyadvanced.solve.delimiter.HelloWorldClient" />
+    <configuration name="TestEmbeddedChannel" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="cn.itcast.netty.components.pipelineAndHandler.TestEmbeddedChannel" />
       <module name="netty" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="cn.itcast.nettyadvanced.solve.delimiter.*" />
+          <option name="PATTERN" value="cn.itcast.netty.components.pipelineAndHandler.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -165,12 +171,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="cn.itcast.nettyadvanced.solve.delimiter.HelloWorldServer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="cn.itcast.nettyadvanced.solve.delimiter.HelloWorldServer" />
+    <configuration name="TestMessageCodec" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="cn.itcast.chatroomdemo.protocol.TestMessageCodec" />
       <module name="netty" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="cn.itcast.nettyadvanced.solve.delimiter.*" />
+          <option name="PATTERN" value="cn.itcast.chatroomdemo.protocol.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -179,19 +185,18 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.TestLengthFiledDecoder" />
-      <item itemvalue="Application.TestLengthFiledDecoder1" />
-      <item itemvalue="Application.TestRedis" />
-      <item itemvalue="Application.cn.itcast.nettyadvanced.solve.delimiter.HelloWorldClient" />
-      <item itemvalue="Application.cn.itcast.nettyadvanced.solve.delimiter.HelloWorldServer" />
+      <item itemvalue="Application.ChatClient" />
+      <item itemvalue="Application.ChatServer" />
+      <item itemvalue="Application.Test" />
+      <item itemvalue="Application.TestEmbeddedChannel" />
+      <item itemvalue="Application.TestMessageCodec" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.TestRedis" />
-        <item itemvalue="Application.TestLengthFiledDecoder1" />
-        <item itemvalue="Application.TestLengthFiledDecoder" />
-        <item itemvalue="Application.cn.itcast.nettyadvanced.solve.delimiter.HelloWorldClient" />
-        <item itemvalue="Application.cn.itcast.nettyadvanced.solve.delimiter.HelloWorldServer" />
+        <item itemvalue="Application.TestMessageCodec" />
+        <item itemvalue="Application.ChatServer" />
+        <item itemvalue="Application.Test" />
+        <item itemvalue="Application.TestEmbeddedChannel" />
       </list>
     </recent_temporary>
   </component>
@@ -233,7 +238,20 @@
       <workItem from="1655620924474" duration="10608000" />
       <workItem from="1655711077751" duration="14659000" />
       <workItem from="1655805918126" duration="7682000" />
-      <workItem from="1656050648086" duration="9880000" />
+      <workItem from="1656050648086" duration="10044000" />
+      <workItem from="1656153745524" duration="657000" />
+      <workItem from="1656227740749" duration="1608000" />
+      <workItem from="1656250630387" duration="1810000" />
+      <workItem from="1656488335916" duration="9807000" />
+      <workItem from="1656559284318" duration="9139000" />
+      <workItem from="1656650023747" duration="64000" />
+      <workItem from="1656751621379" duration="1840000" />
+      <workItem from="1656904443832" duration="713000" />
+      <workItem from="1656905450863" duration="1636000" />
+      <workItem from="1656940664650" duration="1074000" />
+      <workItem from="1657023280737" duration="10380000" />
+      <workItem from="1657090806682" duration="3722000" />
+      <workItem from="1657103312425" duration="11212000" />
     </task>
     <task id="LOCAL-00001" summary="java learning record">
       <created>1653821280273</created>
@@ -284,7 +302,14 @@
       <option name="project" value="LOCAL" />
       <updated>1655744753603</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="Merge remote-tracking branch 'Java/master'&#10;&#10;# Conflicts:&#10;#&#9;.idea/workspace.xml&#10;#&#9;algorithm/src/main/java/test/Test.java">
+      <created>1656083668151</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1656083668151</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

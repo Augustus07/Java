@@ -1,7 +1,9 @@
 package test;
 
-import javax.swing.plaf.synth.SynthOptionPaneUI;
+import java.lang.reflect.Array;
 import java.util.*;
+import java.util.stream.Collectors;
+import java.util.stream.IntStream;
 
 /**
  * @BelongsProject: java_practice
@@ -13,17 +15,20 @@ import java.util.*;
  * @Version: 1.0
  */
 public class Test {
-    public static void main(String[] args){
-        Map<Integer, Integer> map = new HashMap<>();
-        map.put(1,2);
-        map.put(2,7);
-        map.put(3,5);
-        Set<Map.Entry<Integer, Integer>> entrye = map.entrySet();
-        List<Map.Entry<Integer, Integer>> list = new ArrayList<>(entrye);
-        Collections.sort(list, (o1, o2) -> o2.getValue() - o1.getValue());
-        for (Map.Entry<Integer, Integer> ele : list) {
-            System.out.println(ele.getKey());
+    public static void main(String[] args) {
+        int[][] people = {{7,0},{4,4},{7,1},{5,0},{6,1},{5,2}};
+        Arrays.sort(people, (a, b) -> {
+            if (a[0] == b[0]) {
+                return a[1] - b[1];
+            }
+            return b[0] - a[0];
+        });
+        System.out.println(Arrays.deepToString(people));
+        LinkedList<int[]> que = new LinkedList<>();
+        for (int[] p : people) {
+            que.add(p[1], p);
         }
 
+        que.toArray(new int[people.length][]);
     }
 }
